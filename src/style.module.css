@@ -65,6 +65,13 @@
 .text-shadow {
   text-shadow:  0.02em 0 white, 0 0.02em white, -0.02em 0 white, 0 -0.02em white;;
 }
+.link {
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .subheading {
   font-size: 1.6rem;
   font-family: Poppins;
@@ -88,3 +95,6 @@
   text-transform: none;
   text-decoration: none;
 }
+
+
+

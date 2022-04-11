@@ -39,9 +39,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.text {
-  margin-right: var(--dl-space-space-doubleunit);
-}
 .text01 {
   margin-right: var(--dl-space-space-doubleunit);
 }

@@ -19,10 +19,22 @@ const Index = (props) => {
           <h1>Home</h1>
           <div className={styles['Right-side']}>
             <div className={styles['Links-container']}>
-              <span className={styles['text']}>Home</span>
-              <span className={styles['text01']}>About</span>
-              <span className={styles['text02']}>Videos</span>
-              <span className={styles['text03']}>Photos</span>
+              <span className={projectStyles['link']}>Home</span>
+              <span
+                className={` ${styles['text01']} ${projectStyles['link']} `}
+              >
+                About
+              </span>
+              <span
+                className={` ${styles['text02']} ${projectStyles['link']} `}
+              >
+                Videos
+              </span>
+              <span
+                className={` ${styles['text03']} ${projectStyles['link']} `}
+              >
+                Photos
+              </span>
             </div>
             <a href="#main-section" className={styles['link']}>
               <SolidButton button="Contact"></SolidButton>
